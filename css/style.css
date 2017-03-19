@@ -489,10 +489,10 @@ h5 {
     height: 100%;
     overflow: hidden;
 }
-.content:last-child {
+/*.content:last-child {
     width: 1720px;
     background-color: #000;
-}
+}*/
 .content {
     width: 804px;
     overflow-y: scroll;
@@ -970,7 +970,7 @@ canvas body {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background: url(http://placehold.it/1608x1080/000)no-repeat right top;
+    background-color:#FFF
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
