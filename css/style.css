@@ -190,9 +190,9 @@ h3 {
     margin: 50px 0 10px;
 }
 h4 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 100;
-    line-height: 30px;
+    line-height: 25px;
     margin: 0;
 }
 h5 {
@@ -451,7 +451,7 @@ h5 {
     margin: 0 26px 0 30px
 }
 .github {
-    color: #FFFFF;
+    color: #FFFFFF;
 }
 .linkedin {
     color: #0073b1;
@@ -615,15 +615,16 @@ a.totop-link {
    ========================================================================== */
 
 canvas {
-    display: block;
+    /*display: block;*/
 }
+
 canvas body {
-    background: black;
+    background: #000000;
 }
 
 .about {
     background: url(../images/selfie.png)no-repeat 100% 0 scroll;
-    background-size: 50%;
+    background-size: contain;
 }
 .about .inner {
     width: 50%
@@ -970,7 +971,7 @@ canvas body {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background-color:#FFF
+    background-color: url(http://placehold.it/1608x1080/000)no-repeat right top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1337,6 +1338,10 @@ iframe, embed, object {
     width: 100%;
 }
 
+.icon-block img {
+    padding-top: 5px;
+}
+
 /* ==========================================================================
    #404 Page
    ========================================================================== */
@@ -1353,6 +1358,11 @@ iframe, embed, object {
 
 @media only screen and (max-device-width:768px)   {
     .introduction img {
+        height:auto;
+        width:auto;
+    }
+
+    .icon-block img {
         height:auto;
         width:auto;
     }
