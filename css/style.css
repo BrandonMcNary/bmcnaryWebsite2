@@ -614,6 +614,13 @@ a.totop-link {
    #About Screen
    ========================================================================== */
 
+canvas {
+    display: block;
+}
+canvas body {
+    background: black;
+}
+
 .about {
     background: url(../images/selfie.png)no-repeat 100% 0 scroll;
     background-size: 50%;
