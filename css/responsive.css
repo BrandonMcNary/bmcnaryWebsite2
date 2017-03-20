@@ -241,6 +241,9 @@
         content: "\f039";
         font-family: 'FontAwesome';
     }
+    .title {
+        margin: 0 17px
+    }
     .menu nav a {
         margin: 0 17px
     }
