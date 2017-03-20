@@ -367,12 +367,22 @@ h5 {
     text-align: center;
     margin: 30px 0 0;
 }
-.logo span {
-    display: none
+.title {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    padding: 13px 0;
+    text-align: left;
+    outline: none;
+    margin: 0 30px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    text-transform: uppercase;
 }
 .logo img {
-    width: auto;
-    height: auto;
+    width: 70%;
+    height: 70%;
 }
 .menu {
     position: fixed;
@@ -386,10 +396,10 @@ h5 {
 }
 .menu nav {
     position: absolute;
-    top: 220px;
+    top: 260px;
     left: 0px;
     right: 0px;
-    bottom: 50px;
+    bottom: 150px;
     width: 200px !important;
 }
 .menu nav a {
@@ -408,6 +418,9 @@ h5 {
     -moz-transition-duration: .2s;
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
+}
+.menu nav a:nth-child(1){
+    border-top: 1px solid #333333;
 }
 .menu nav a span.active {
     color: #ffb400;
@@ -615,7 +628,8 @@ a.totop-link {
    ========================================================================== */
 
 canvas {
-    /*display: block;*/
+    height: 100%;
+    width: 100%;
 }
 
 canvas body {
@@ -623,7 +637,6 @@ canvas body {
 }
 
 .about {
-    background: url(../images/selfie.png)no-repeat 100% 0 scroll;
     background-size: contain;
 }
 .about .inner {
